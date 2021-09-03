@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Math Quiz</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <script src="main.js"></script>
+  <link rel="stylesheet" href="gamepage.css">
+  <div class="container">
+    <h4 id="player1_name"></h4><span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4><span id="player2_score"></span>
+
+    <div class="container">
+      <center>
+        <h2 style="color:darkorchid;">Math Quiz!!!</h2>
+      </center>
+    </div>
+   
+      <h4 id="questionTurn"></h4>
+    <h4 id="answerTurn"></h4>
+    <div id="output">
+      <h3 id="problem"></h3>
+      <br>
+      <h5>Answer:</h5><input type="number" id="answerInput" required>
+      <br>
+      <button type="submit" id="check-btn">Check</button>
+      <br>
+      <br>
+      <h1>Number 1</h1>
+      <br>
+      <input type="number" class="NumberInputs" placeholder="Number 1" required>
+      <h1>Number 2</h1>
+      <br>
+      <input type="number" class="NumberInputs" placeholder="Number 2" required>
+      <br>
+      <button type="submit" id="submit-btn" onclick="send()">Submit!!!</button>
+    </div>
+  </div>
+</body>
+</html>

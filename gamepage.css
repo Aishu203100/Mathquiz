@@ -1,0 +1,31 @@
+
+#output
+{
+  background:cornflowerblue;
+  border-radius:10px;
+  border-top:10px solid crimson;
+  padding:10px;
+  margin:10px;
+  float:none;
+  text-align:left;
+}
+#check-btn, #submit-btn
+{
+ width:100px;
+ height:40px;
+ color:rgb(255, 255, 255);
+ background-color:rgb(200, 127, 219);
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size:15px;
+ text-align: center;
+ border-color:rgb(209, 243, 223);
+ border-width:5px;
+ border-style:solid;
+ border-radius:30px;;
+}
+.container
+{
+   align-items: center;
+   display:flex;
+   flex-direction: column; 
+}
